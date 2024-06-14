@@ -1,16 +1,31 @@
 body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #f4f4f4;
 }
 .boton-jugada {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border: none;
+  height: 100px;
+  width: 100px;
   background-color: #3498db;
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 50%;
 }
 #resultados {
   font-size: 20px;
   margin: 20px 0;
 }
+
+.container-botones {
+  display: flex;
+}
+

@@ -63,10 +63,3 @@ function jugadaAleatoria () {
 
 
 
-
-
-
-
-/*function botonSeleccionado (event) {
-    console.log("click");
-}*/

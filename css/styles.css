@@ -21,11 +21,74 @@ body {
   border-radius: 50%;
 }
 #resultados {
+  border: none;
   font-size: 20px;
   margin: 20px 0;
 }
 
-.container-botones {
+.containerBotones {
+  position: relative;
+  bottom: 80px;
   display: flex;
+  gap: 20px;
 }
 
+.contenedorAbsoluto {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #ccc;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  width: 600px;
+}
+
+.contenedorDos {
+  position: relative;
+  top: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  padding-top: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 80px;
+}
+
+
+.boton-jugada:hover {
+  
+  animation: botonJugada 2s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes botonJugada {
+
+  0% {transform: scale(1);}
+  5% {background-color: transparent; scale(1.2);}
+  10% {box-shadow: none; background-color: transparent; scale(1.4);}
+  15% {box-shadow: none; background-color: transparent; scale(1.6);}
+  20% {box-shadow: none; background-color: transparent; scale: 1.8;}
+  25% {box-shadow: none; background-color: transparent; scale(2);}
+  30% {box-shadow: none; background-color: transparent; scale: 2.2;}
+  35% {box-shadow: none; background-color: transparent; scale(2.4);}
+  40% {box-shadow: none; background-color: transparent; scale: 2.6;}
+  45% {box-shadow: none; background-color: transparent; scale(2.8);}
+  50% {box-shadow: none; background-color: transparent; scale: 3;}
+  55% {box-shadow: none; background-color: transparent; scale(3.2);}
+  60% {box-shadow: none; background-color: transparent; scale: 3.4;}
+  65% {box-shadow: none; background-color: transparent; scale(3.6);}
+  70% {box-shadow: none; background-color: transparent; scale: 3.8;}
+  75% {box-shadow: none; background-color: transparent; scale(4);}
+  80% {box-shadow: none; background-color: transparent; scale: 4.2;}
+  85% {box-shadow: none; background-color: transparent; scale(4.4);}
+  90% {box-shadow: none; background-color: transparent; scale: 4.6;}
+  95% {box-shadow: none; background-color: transparent; scale(4.8);}
+  100% {box-shadow: none; background-color: transparent; scale: 5;}
+}
+ 
+
+
+  
